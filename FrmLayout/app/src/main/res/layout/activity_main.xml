@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_margin="14dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<TextView
+    android:text="Sin  Gravedad"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="23sp"
+    android:background="#881700"
+    />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Centro"
+        android:background="#080"
+        android:textSize="40sp"
+        android:layout_gravity="center"
+        />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="botton|right"
+    android:background="#080"
+    android:textSize="15sp"
+    android:layout_gravity="bottom|right"
+    android:textColor="#f4f7f4"/>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cambiar"
+        android:background="#92bbf7"
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center"/>
+
+    <!-- esto es un comentario -->
+
+</FrameLayout>

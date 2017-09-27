@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nombre"
+        android:hint="Nombre"/>
+    <Spinner
+        android:id="@+id/fecha"
+        android:layout_below="@+id/nombre"
+        android:layout_alignParentLeft="true"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/hora"
+
+        />
+    <Spinner
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/hora"
+        android:layout_below="@+id/nombre"
+        android:layout_alignParentRight="true">
+
+        </Spinner>
+    <Button
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hora"
+        android:layout_alignParentRight="true"
+        android:text="Boton"
+        />
+
+</RelativeLayout>
